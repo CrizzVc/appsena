@@ -1,0 +1,25 @@
+img{
+    border-radius: 18px;
+ }
+
+ #persons{
+    position: relative;
+    margin-top: 30px;
+    border: 2px solid rgb(255, 210, 158);
+    width: 300px;
+    background-color: bisque;
+    border-radius: 18px;
+ }
+
+ #persons img{
+    position: absolute;
+    left: 150px;
+    top: 2px;
+ }
+
+ #data{
+    display: grid;
+ }
+ .grid{
+    gap: 10px;
+ }
