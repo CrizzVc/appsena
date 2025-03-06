@@ -12,3 +12,52 @@
  /* #characters{
     
  } */
+
+ nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: solid 1px;
+    width: 99.9%;
+    height: 70px;
+ }
+ aside{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    border: solid 1px;
+    height: 919px;
+    width: 200px;
+ }
+ section{
+    position: absolute;
+    top: 70px;
+    left: 200px;
+    border: solid 1px;
+    width: 89.5%;
+    height: 919px;
+ }
+ img{
+    border-radius: 18px;
+ }
+
+ #persons{
+    position: relative;
+    margin-top: 30px;
+    border: 2px solid red;
+    width: 300px;
+ }
+
+ #persons img{
+    border: 2px solid red;
+    position: absolute;
+    left: 150px;
+    top: 0px;
+ }
+
+ #data{
+    display: grid;
+ }
+ .grid{
+    gap: 10px;
+ }
