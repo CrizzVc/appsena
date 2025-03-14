@@ -1,5 +1,5 @@
  nav{
-    border: solid 1px;
+    /* border: solid 1px; */
     width: 99.9%;
     height: 70px;
  }
@@ -14,10 +14,17 @@
     height: 609px;
     width: 200px;
  }
+
+ aside a{
+  color: white;
+  text-decoration: none;
+ }
+
  section{
-   border: solid 1px;
+   /* border: solid 1px; */
    width: 89.5%;
    height: 609px;
    overflow: scroll;
+   box-shadow: inset 14px 15px 29px -26px rgba(175,221,240,1);
  }
  
