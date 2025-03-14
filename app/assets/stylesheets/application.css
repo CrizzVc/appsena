@@ -9,14 +9,21 @@
    flex-direction: row;
  }
 
+ #pjs{
+  display: flex;
+  flex-wrap: wrap;
+ }
+
+ 
+
  aside{
-    border: solid 1px;
     height: 609px;
     width: 200px;
+    box-shadow: inset 14px 15px 29px -26px rgb(189, 227, 243);
  }
 
  aside a{
-  color: white;
+  color: rgb(24, 22, 22);
   text-decoration: none;
  }
 
@@ -27,4 +34,3 @@
    overflow: scroll;
    box-shadow: inset 14px 15px 29px -26px rgba(175,221,240,1);
  }
- 
