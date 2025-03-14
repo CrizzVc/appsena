@@ -1,28 +1,29 @@
 
-<div id="persons">
-  <p>
-    <strong>Lastname:</strong>
-    <%= personaje.lastname %>
-  </p>
-
-  <p>
-    <strong>Age:</strong>
-    <%= personaje.age %>
-  </p>
-
-  <p>
-    <strong>Serie:</strong>
-    <%= personaje.serie %>
-  </p>
-
-</div>
-
-
 <div class="card" style="width: 18rem;">
   <img  class="card-img-top" src="<%= personaje.img %>" width="130" height="180"></img>
   <div class="card-body">
-    <h5 class="card-title"><%= personaje.name %></h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <h5 class="card-title"> id: <%= personaje.id %></h5>
+
+    <p>
+      <strong>Name:</strong>
+      <%= personaje.name %>
+    </p>
+
+    <p>
+      <strong>Lastname:</strong>
+      <%= personaje.lastname %>
+    </p>
+
+    <p>
+      <strong>Age:</strong>
+      <%= personaje.age %>
+    </p>
+
+    <p>
+      <strong>Serie:</strong>
+      <%= personaje.serie %>
+    </p>
+
     <p class="btn btn-primary">
       <%= link_to "Show this personaje", personaje %>
     </p>
