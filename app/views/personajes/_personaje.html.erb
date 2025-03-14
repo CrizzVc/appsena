@@ -1,7 +1,7 @@
 <div id="persons">
   <p>
     <strong>Name:</strong>
-    <%= personaje.name %>
+    
   </p>
 
   <p>
@@ -19,10 +19,22 @@
     <%= personaje.serie %>
   </p>
 
-  <img src="<%= personaje.img %>" width="130" height="180"></img>
+  
 
   <p>
     <%= link_to "Show this personaje", personaje %>
   </p>
 
+</div>
+
+
+<div class="card" style="width: 18rem;">
+  <img  class="card-img-top" src="<%= personaje.img %>" width="130" height="180"></img>
+  <div class="card-body">
+    <h5 class="card-title"><%= personaje.name %></h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">
+      <%= link_to "Show this personaje", personaje %>
+    </a>
+  </div>
 </div>
