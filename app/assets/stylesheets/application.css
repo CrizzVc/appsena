@@ -16,18 +16,23 @@
     box-shadow: inset 14px 15px 29px -26px rgb(189, 227, 243);
  }
 
- aside a{
+
+ #bttn1 a{
   color: rgb(252, 252, 252);
   text-decoration: none;
  }
 
  section{
-   /* border: solid 1px; */
-   width: 89.5%;
-   height: 609px;
-   overflow: scroll;
-   box-shadow: inset 14px 15px 29px -26px rgba(175,221,240,1);
+  width: 89.5%;
+  height: 609px;
+  overflow: scroll;
+  box-shadow: inset 14px 15px 29px -26px rgba(175,221,240,1);
  }
+
+  section h1 {
+    margin-top: 50px;
+    margin-left: 50px;
+  }
 
  .fullHeight {
     height: 92vh;
@@ -47,4 +52,10 @@
   #newPj{
     margin-top: 50px;
     margin-left: 50px;
+  }
+
+  .btn a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
   }

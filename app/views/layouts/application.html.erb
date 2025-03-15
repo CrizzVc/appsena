@@ -69,15 +69,12 @@
           <hr>
           <ul class="nav nav-pills flex-column mb-auto">
             
-            <li class="btn btn-primary">
+            <li id="bttn1" class="btn btn-primary">
               <%= link_to "personajes", personajes_path %>
             </li>
 
-            <li>
-              <a href="#" class="nav-link link-dark">
-                <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"></use></svg>
-                Animes
-              </a>
+            <li class="btn" data-bs-toggle="button">
+              <%= link_to "animes", animes_path %>
             </li>
 
             <li>
