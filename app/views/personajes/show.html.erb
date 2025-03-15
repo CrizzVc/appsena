@@ -3,7 +3,10 @@
 <%= render @personaje %>
 
 <div>
-  <%= link_to "Edit this personaje", edit_personaje_path(@personaje) %> |
-
-  <%= button_to "Destroy this personaje", @personaje, method: :delete %>
+  <p id="newPj" class="btn btn-primary">
+    <%= link_to "Edit this personaje", edit_personaje_path(@personaje) %> 
+  </p>
+  <p id="newPj" class="btn btn-danger">
+    <%= button_to "Destroy this personaje", @personaje, method: :delete %>
+  </p>
 </div>

@@ -1,0 +1,24 @@
+
+
+#form-cr{
+    /* border: solid 1px ; */
+    border-radius: 18px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(197, 239, 252); */
+}
+
+.mgn{
+    margin-left: 8px;
+}
+
+.frm{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
