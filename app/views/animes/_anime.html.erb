@@ -1,19 +1,26 @@
-<div id="<%= dom_id anime %>">
-  <p>
-    <strong>Name:</strong>
-    <%= anime.name %>
-  </p>
 
-  <p>
-    <strong>Año:</strong>
-    <%= anime.año %>
-  </p>
+<div id="portada">
+  <img id="img1" src="<%= anime.img %>"></img>
+  <section id="sec">
+    <p>
+      <strong>Name:</strong>
+      <%= anime.name %>
+    </p>
 
-  <p>
-    <strong>Personajes:</strong>
-    <%= anime.personajes %>
-  </p>
+    <p>
+      <strong>Año:</strong>
+      <%= anime.año %>
+    </p>
 
-  <img src="<%= anime.img %>" width="220"></img>
+    <p>
+      <strong>Personajes:</strong>
+      <%= anime.personajes %>
+    </p>
 
+    <p id="btnExtra" class="btn btn-primary">
+      <%= link_to "Show this anime", anime %>
+    </p>
+  </section>
+  <img id="fondo" src="<%= anime.img %>"></img>
 </div>
+
