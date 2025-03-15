@@ -9,15 +9,7 @@
    flex-direction: row;
  }
 
- #pjs{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column-reverse;
-    justify-content: space-around;
-  }
-
  
-
  aside{
     height: 92vh;
     width: 200px;
@@ -25,7 +17,7 @@
  }
 
  aside a{
-  color: rgb(24, 22, 22);
+  color: rgb(252, 252, 252);
   text-decoration: none;
  }
 
@@ -43,7 +35,16 @@
 
   #personajes{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    flex-flow: row wrap;
+  }
+
+  #newPj a{
+    color: white;
+    text-decoration: none;
+  }
+
+  #newPj{
+    margin-top: 50px;
+    margin-left: 50px;
   }

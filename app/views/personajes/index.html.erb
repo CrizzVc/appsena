@@ -4,13 +4,13 @@
 
 <h1>Personajes</h1>
 
-<div id="pjs">
-  <div id="personajes">
-    <% @personajes.each do |personaje| %>
-      <%= render personaje %>
-    <% end %>
-  </div>
+<div id="personajes">
+  <% @personajes.each do |personaje| %>
+    <%= render personaje %>
+  <% end %>
 </div>
 
 
-<%= link_to "New personaje", new_personaje_path %>
+<p id="newPj" class="btn btn-primary">
+  <%= link_to "New personaje", new_personaje_path %>
+</p>
