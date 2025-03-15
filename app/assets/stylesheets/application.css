@@ -10,14 +10,16 @@
  }
 
  #pjs{
-  display: flex;
-  flex-wrap: wrap;
- }
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+  }
 
  
 
  aside{
-    height: 609px;
+    height: 92vh;
     width: 200px;
     box-shadow: inset 14px 15px 29px -26px rgb(189, 227, 243);
  }
@@ -34,3 +36,14 @@
    overflow: scroll;
    box-shadow: inset 14px 15px 29px -26px rgba(175,221,240,1);
  }
+
+ .fullHeight {
+    height: 92vh;
+  }
+
+  #personajes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
