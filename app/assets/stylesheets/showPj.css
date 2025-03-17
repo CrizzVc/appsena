@@ -1,0 +1,18 @@
+#ShowPj{
+    display: flex;
+    flex-direction: row;
+    border: solid 1px red;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#data_pj{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    margin-left: 100px;
+}
+
+img {
+    border-radius: 18px;
+}

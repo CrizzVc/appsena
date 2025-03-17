@@ -1,7 +1,25 @@
 <p style="color: green"><%= notice %></p>
-
-<%= render @personaje %>
-<h1><%= @personaje.name %></h1>
+<div id="ShowPj">
+  <img  src="<%= @personaje.img %>" width="230" height="280"></img>
+  <div id="data_pj">
+      <p>
+        <strong>Name:</strong>
+        <%= @personaje.name %>
+      </p>
+      <p>
+        <strong>Lastname:</strong>
+        <%= @personaje.lastname %>
+      </p>
+      <p>
+        <strong>Age:</strong>
+        <%= @personaje.age %>
+      </p>
+      <p>
+        <strong>Serie:</strong>
+        <%= @personaje.serie %>
+      </p>
+  </div>
+</div>
 <div>
   <p id="newPj" class="btn btn-primary">
     <%= link_to "Edit this personaje", edit_personaje_path(@personaje) %> 
