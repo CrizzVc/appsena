@@ -5,6 +5,8 @@ class CreateProductos < ActiveRecord::Migration[8.0]
       t.integer :precio
       t.integer :stock
       t.string :tipo
+      t.string :img
+      t.string :img2
 
       t.timestamps
     end

@@ -5,9 +5,13 @@ one:
   precio: 1
   stock: 1
   tipo: MyString
+  img: MyString
+  img2: MyString
 
 two:
   nombre: MyString
   precio: 1
   stock: 1
   tipo: MyString
+  img: MyString
+  img2: MyString
