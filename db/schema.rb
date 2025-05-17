@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_03_17_222649) do
+ActiveRecord::Schema[8.0].define(version: 2025_03_21_201719) do
   create_table "animes", force: :cascade do |t|
     t.string "name"
     t.integer "año"
@@ -44,6 +44,17 @@ ActiveRecord::Schema[8.0].define(version: 2025_03_17_222649) do
     t.integer "age"
     t.string "serie"
     t.string "img"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "productos", force: :cascade do |t|
+    t.string "nombre"
+    t.integer "precio"
+    t.integer "stock"
+    t.string "tipo"
+    t.string "img"
+    t.string "img2"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
